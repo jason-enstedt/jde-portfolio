@@ -1,0 +1,220 @@
+@import './modules/reset';
+@import './modules/variables';
+@import './modules/fonts';
+@import './modules/header';
+@import './modules/nav';
+@import './modules/hamburger';
+@import './modules/work';
+@import './modules/about';
+@import './modules/single';
+@font-face {
+    font-family: 'main-font';
+    src: local('MyFont'), url(../fonts/LinLibertineRB.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'ariah';
+    src: local('MyFont'), url(../fonts/ARIAH.woff) format('woff');
+  }
+@font-face{
+    font-family: 'staat';
+    src: local('staat'), url(../fonts/Staatliches-Regular.woff) format('woff');
+}
+@font-face{
+    font-family:'raleway';
+    src:local('raleway'), url(../fonts/Raleway-Black.woff) format('woff');
+}
+
+h1,h2,h3,h4,h5,p,a, button{
+    padding: 0;
+    margin: 0;
+    font-family: 'staat';
+    font-weight: normal;
+}
+h1,h2{
+    color:white;
+    font-size:3em;
+    text-shadow: 7px 7px 2px rgb(23, 106, 109);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: rgb(197, 198, 206);
+    color:$dark;
+    overflow-x: hidden;
+    height:100%;
+}
+#foo{
+    position: fixed;
+    height:100vh;
+    width:100vh;
+}   
+@media screen and (min-width:700px){
+    #foo{
+        height:auto;
+        width:auto;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+}
+
+
+
+
+.wrapper{
+    position: absolute;
+    z-index: 999;
+   
+}
+
+.title{
+    padding-top:100px;
+    height:100vh;
+    width:70%;
+    text-align: left;
+    padding-left: 10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+   h1{
+
+    font-family: 'staat';
+    font-size: 6em;
+    margin: 0;
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+    text-shadow: 7px 7px 2px rgb(23, 106, 109);
+  
+    
+    
+    }
+    h2{
+        padding-top: 20px;
+        font-size: 1.6em;
+        color:rgb(33, 105, 114);
+        text-shadow: 3px 3px 1px rgb(236, 236, 236);
+    }
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Prata');
+
+
+    $time-fast: 0.1s;
+    $time-mid: 0.6s;
+    $font: 'Prata';
+    $bg-button: #1f645eda;
+    $color-text: rgba(235, 232, 232, 0.842); //lighten($bg-button, 20%);
+
+
+    .buttons{
+        display:flex;
+        justify-content: left;
+        padding-top: 40px;
+        justify-content: space-evenly;
+        width:100%;
+        a {
+        text-align: center;
+        text-decoration: none;
+        border: rgb(255, 255, 255) 2px solid;
+        border-radius: 1px;
+        background-color: $color-text;
+        color:$bg-button;
+        font-size: 1.4rem;
+        // margin-right: 20px;
+        letter-spacing: 2px;
+        padding: 10px;
+        }
+
+        a {
+        display: block;
+        width: 35%;
+        
+        cursor: pointer;
+        transition: box-shadow $time-fast linear;
+        &:hover {
+            box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
+            background-color: $bg-button;
+            color:$color-text;
+        }
+        }
+    }
+    .scroll-down{
+        position: absolute;
+        top:82vh;
+        left:40%;
+        
+        
+        a{
+            text-align: center;
+            color:rgb(33, 105, 114);
+            text-shadow: 3px 3px 1px rgb(236, 236, 236);
+            text-decoration: none;
+            font-size: 2em;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        
+    }
+}
+@media screen and (min-width:550px){
+    .title{
+        h1{
+            font-size:7em;
+        }
+        h2{
+            font-size: 2em;
+        }
+    }
+}
+@media screen and (min-width:650px){
+    .title{
+        h1{
+            font-size:8em;
+        }
+        h2{
+            font-size: 3em;
+        }
+    }
+}
+@media screen and (min-width:750px){
+    .title{
+        h1{
+            font-size:9em;
+        }
+        h2{
+            font-size: 3.4em;
+        }
+    }
+}
+@media screen and (min-width:900px){
+    .title{
+        padding-left: 2%;
+        h1{
+            font-size:9em;
+        }
+        h2{
+            font-size: 3.4em;
+        }
+        .buttons{
+            max-width:600px;
+        }
+    }
+}
+
+
+a{
+    font-family: 'staat';
+    
+}
+
+
+
+// display only

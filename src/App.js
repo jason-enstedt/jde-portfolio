@@ -1,25 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Nav from './components/Nav';
+import Single from './components/Single';
 
+import ReactVivus from 'react-vivus';
+import top from './images/topography-jde-white.svg';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <Router>
+    <ReactVivus
+    id="foo"
+    option={{
+      file: top,
+      animTimingFunction: 'EASE',
+      type: 'sync',
+      onReady: console.log,
+      start: "autostart",
+    
+    }}
+    
+    callback={console.log}
+  />
+    <div className="wrapper">
+    <Header />
+    <Nav />
+    <Route path="/" exact><Home /></Route>
+    <Route path="/project"><Single /></Route>
+    <Footer />
     </div>
+    </Router>
+    
   );
 }
 

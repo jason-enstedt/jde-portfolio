@@ -1,0 +1,111 @@
+.single{
+    padding-top: 70px;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding-left: 60px;
+    
+    
+    h1{
+        color:rgb(202, 202, 202);
+        text-shadow: 5px 5px 1px rgb(66, 66, 66);
+        text-align: center;
+        font-size: 4em;
+    }
+    h2{
+        color:#1f645eda;
+        text-shadow: 5px 5px 1px rgb(182, 182, 182);
+    }
+    .live-site{
+            
+            padding-top: 20px;
+            width:100%;
+            
+        a{
+            color:black;
+            text-decoration: none;
+            border: black 2px solid;
+            text-align: center;
+            text-decoration: none;
+            border: rgb(255, 255, 255) 2px solid;
+            border-radius: 1px;
+            background-color: #1f645eda;
+            color:rgba(235, 232, 232, 0.842);
+            font-size: 1.4rem;
+            // margin-right: 20px;
+            letter-spacing: 2px;
+            padding: 10px;
+            display: block;
+            width: 35%;
+            cursor: pointer;
+            transition: box-shadow 0.1s linear;
+            margin:0 auto;
+                
+            &:hover {
+                box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
+                background-color:rgba(235, 232, 232, 0.842) ;
+                color:#1f645eda;
+            }
+            
+        }
+        
+       
+    }
+    p{
+        line-height: 1.4em;
+        font-size: .9em;
+        padding: 15px;
+        font-family:raleway;
+        font-weight: lighter;
+        color:rgb(48, 48, 48);
+    }
+    img{
+        width:100%;
+    }
+    video{
+        width:100%;
+        overflow-y: hidden;
+        
+    }
+    #gist-8020fd5f74a95bf2686a022e8bf77661{
+        height:500px !important;
+    }
+    .technologies{
+        padding-bottom: 20px;
+        margin:auto;
+        width:90%;
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        p{
+            margin-top:5px;
+        border:rgb(66, 66, 66) 2px solid;
+        padding: 4px;
+        font-size: .9em;
+        }
+    }
+    .next-project{
+        position: fixed;
+        bottom:10px;
+        right:25px;
+        a{
+            color:rgba(0, 0, 0, 0.452);
+            text-decoration: none;
+            font-size: 1.5em;
+            
+        }
+        a:hover{
+            color:black;
+        }
+    }
+}
+
+@media screen and(min-width:1100px){
+    .wrapper{
+        margin:auto;
+        width:100%;
+    }
+    .single{
+        margin:auto;
+        width:1100px;
+       
+    }
+}

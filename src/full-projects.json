@@ -1,0 +1,35 @@
+{
+    "projects": [
+        {
+            "title":"Cinephile",
+            "excerpt":"Cinephile is a movie database web app. It was build with React.js and uses an external API to retrieve movie data",
+            "mainimage":"images/cinephile-mockup.png",
+            "technologies":[
+                "HTML/CSS",
+                "Javascript",
+                "React.JS",
+                "API",
+                "Github",
+                "Node.JS"
+            ]
+
+
+        },
+        {
+            "title":"Bambrush",
+            "excerpt":"Cinephile is a movie database web app. It was build with React.js and uses an external API to retrieve movie data",
+            "mainimage":"images/bambrush-mockup.png",
+            "technologies":[
+                "HTML",
+                "Javascript",
+                "SASS",
+                "Github",
+                "Photoshop"
+                
+            ]
+
+
+        }
+        
+    ]
+}

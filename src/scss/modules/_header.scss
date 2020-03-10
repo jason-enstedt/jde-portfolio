@@ -1,0 +1,52 @@
+@import 'variables';
+
+.bars{
+    position: absolute;
+    .top-bar{
+        position: fixed;
+        top:10px;
+        left:10px;
+        z-index: 98;
+        a{
+            color:rgb(255, 255, 255);
+            text-shadow: 5px 5px 1px #1f645eda;
+            text-decoration: none;
+            font-size: 4em;
+           
+            margin: 0;
+            padding: 0;
+
+        }
+    }
+    .left-bar{
+        z-index: 99;
+        
+        
+        background-color:rgba(128, 128, 128, 0);
+        position:fixed;
+        bottom:0;
+        display:flex;
+        flex-direction: column-reverse;
+        
+        
+        
+        img{
+            margin-bottom: 20px;
+            
+            margin-left: 10px;
+            width:50px;
+            cursor: pointer;
+            filter: brightness(1);
+            
+
+        }
+        a:hover{
+            
+            opacity:.7 !important; 
+        }
+    }
+}
+.test-box{
+    height:500px;
+    width:100%;
+}

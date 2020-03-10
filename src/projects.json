@@ -1,0 +1,135 @@
+{
+    "projects": [
+        {
+            "title":"Cinephile",
+            "excerpt":"Cinephile is a movie database web app. It was built with React.js and uses an external API to retrieve movie data. It has a dynamic search bar that can search through thousands of movies almost instantly. It also has a Favorites feature which uses local storage to allow users to select specific movies and displays them on your favorites page.",
+            "mainimage":"/images/cinephile-mockup.png",
+            "technologies":[
+                "HTML/CSS",
+                "Javascript",
+                "React.JS",
+                "API",
+                "Github",
+                "Node.JS"
+            ],
+            "liveurl":"https://jenstedt.bcitwebdeveloper.ca/website/movie-app/#/",
+            "designimage":"/images/cinephile-design.png",
+            "designtext":"Cinephile has a simple design which does not distract from the main objective of the site which is to allow users to find information about specific movies. Photoshop was used to create this mockup.",
+            "developmentimage":"images/cinephile-dev.jpg",
+            "featuregif":"/images/cinephile-feature-gif.webm",
+            "featurecode":"https://gist.github.com/jason-enstedt/8020fd5f74a95bf2686a022e8bf77661.js",
+            "featuretext":"Using Reacts useState() and useEffect() functions, I created a fast search bar with instant results. This search is created along with the movieDB API to search using key words. Every key down event on the input box runs the 'searchFast' function. This function resets the input state based off the characters the user wrote. The useEffect function will reset everytime the input state is changed. So, everytime the user types, the API gets called, and sends back the movies based off what they searched.",
+            "devsetuptext":"React set up. Used React Router, Link and Location",
+            "devsetupimage":"images/cinephile-dev-setup.jpg",
+            "gist":"8020fd5f74a95bf2686a022e8bf77661"
+            
+
+
+
+        },
+        {
+            "title":"Bambrush",
+            "excerpt":"Bambrush is a business brochure website for a fictional bamboo toothbrush website. It was build with HTML, SASS and Javascript",
+            "mainimage":"/images/bambrush-mockup.png",
+            "technologies":[
+                "HTML",
+                "JQuery",
+                "SASS",
+                "Github",
+                "Photoshop"
+                
+            ],
+            "liveurl":"https://jenstedt.bcitwebdeveloper.ca/website/bambrush",
+            "designimage":"/images/bambrush-design.png",
+            "designtext":"Bambrush was designed to be a simple and clean website that highlights the use of organic materials. ",
+            "developmentimage":"/images/cinephile-dev.jpg",
+            "featuregif":"/images/bambrush-feature-gif.webm",
+            "featurecode":"https://gist.github.com/jason-enstedt/8020fd5f74a95bf2686a022e8bf77661.js",
+            "featuretext":"The main goal for this website was to showcase HTML, SASS and javascript skills along with an aethsteticly pleasing design. One main technical feature was the cart pop up window. This cart was shown on hover and disapeared when the mouse left the pop up box. This was acheived with some simple jquery. The code snippet can be found below.",
+            "devsetuptext":"React set up. Used React Router, Link and Location",
+            "devsetupimage":"images/cinephile-dev-setup.jpg",
+            "gist":"638fae3da7bb48c79e453732f597de61"
+        },
+        {
+            "title":"Turtles",
+            "excerpt":"Save the Turtles is a pure Javascript 'asteroids' game. It was built by using a javascript canvas. The user gets 5 lives, with a life getting taken away when the turtle hits a straw. You can shoot bubbles by pressing the space bar, and when a bubble makes contact with a straw it splits into 3 more. The users highscore is stored with local storage.",
+            "mainimage":"/images/turtle-mockup.png",
+            "technologies":[
+                "HTML/CSS",
+                "Javascript"
+                
+            ],
+            "liveurl":"https://jenstedt.bcitwebdeveloper.ca/website/save-the-turtles-game/index.html",
+            "designimage":"/images/turtle-design.png",
+            "designtext":"The purpose of this project was to demonstrate my knowledge of vanilla javascript. The design is simple, and was not the priority. However, I wanted it to have a clean underwater feel to it. The idea with the bubbles was to animate them to appear from below and travel upwards. I did not have times to achieve this, but I would have simply used css animations. ",
+            "developmentimage":"images/cinephile-dev.jpg",
+            "featuregif":"/images/turtle-feature-gif.webm",
+            "featurecode":"https://gist.github.com/jason-enstedt/48edf20c7617a368413b7362db6e0314.js",
+            "featuretext":"The main feature of this project was the aspect of object collision. This was acheived by doing some javascript math. Check out the video and code snippet below to see how this was acheived. Put simply, what this code is doing is retrieving the current coordinates of the turtle and the asteroid. It is testing them and seeing if they are overlapping. This function gets run for each asteroid that is on the screen.",
+            "devsetuptext":"React set up. Used React Router, Link and Location",
+            "devsetupimage":"images/cinephile-dev-setup.jpg",
+            "gist":"48edf20c7617a368413b7362db6e0314"
+            
+
+
+
+        },
+        {
+            "title":"Forge",
+            "excerpt":"Cinephile is a movie database web app. It was built with React.js and uses an external API to retrieve movie data. It has a dynamic search bar that can search through thousands of movies almost instantly. It also has a Favorites feature which uses local storage to allow users to select specific movies and displays them on your favorites page.",
+            "mainimage":"/images/forge-mockup.png",
+            "technologies":[
+                "HTML/CSS",
+                "Javascript",
+                "Wordpress",
+                "SASS",
+                "Gulp",
+                "PHP"
+                
+            ],
+            "liveurl":"https://burgerbiz.bcitwebdeveloper.ca",
+            "designimage":"/images/cinephile-design.png",
+            "designtext":"Cinephile has a simple design which does not distract from the main objective of the site which is to allow users to find information about specific movies. Photoshop was used to create this mockup.",
+            "developmentimage":"images/cinephile-dev.jpg",
+            "featuregif":"/images/cinephile-feature-gif.webm",
+            "featurecode":"https://gist.github.com/jason-enstedt/8020fd5f74a95bf2686a022e8bf77661.js",
+            "featuretext":"Using Reacts useState() and useEffect() functions, I created a fast search bar with instant results. This search is created along with the movieDB API to search using key words. Every key down event on the input box runs the 'searchFast' function. This function resets the input state based off the characters the user wrote. The useEffect function will reset everytime the input state is changed. So, everytime the user types, the API gets called, and sends back the movies based off what they searched.",
+            "devsetuptext":"React set up. Used React Router, Link and Location",
+            "devsetupimage":"images/cinephile-dev-setup.jpg",
+            "gist":"8020fd5f74a95bf2686a022e8bf77661"
+            
+
+
+
+        },
+        {
+            "title":"Portfolio",
+            "excerpt":"Cinephile is a movie database web app. It was built with React.js and uses an external API to retrieve movie data. It has a dynamic search bar that can search through thousands of movies almost instantly. It also has a Favorites feature which uses local storage to allow users to select specific movies and displays them on your favorites page.",
+            "mainimage":"/images/cinephile-mockup.png",
+            "technologies":[
+                "HTML/CSS",
+                "Javascript",
+                "Wordpress",
+                "SASS",
+                "Gulp",
+                "PHP"
+                
+            ],
+            "liveurl":"https://burgerbiz.bcitwebdeveloper.ca",
+            "designimage":"/images/cinephile-design.png",
+            "designtext":"Cinephile has a simple design which does not distract from the main objective of the site which is to allow users to find information about specific movies. Photoshop was used to create this mockup.",
+            "developmentimage":"images/cinephile-dev.jpg",
+            "featuregif":"/images/cinephile-feature-gif.webm",
+            "featurecode":"https://gist.github.com/jason-enstedt/8020fd5f74a95bf2686a022e8bf77661.js",
+            "featuretext":"Using Reacts useState() and useEffect() functions, I created a fast search bar with instant results. This search is created along with the movieDB API to search using key words. Every key down event on the input box runs the 'searchFast' function. This function resets the input state based off the characters the user wrote. The useEffect function will reset everytime the input state is changed. So, everytime the user types, the API gets called, and sends back the movies based off what they searched.",
+            "devsetuptext":"React set up. Used React Router, Link and Location",
+            "devsetupimage":"images/cinephile-dev-setup.jpg",
+            "gist":"8020fd5f74a95bf2686a022e8bf77661"
+            
+
+
+
+        }
+        
+    ]
+}
